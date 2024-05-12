@@ -29,6 +29,7 @@ fun Signupsc(onSignup: (String, String) -> Unit) {
     var confirmPassword by remember { mutableStateOf("") }
     var isError = false
 
+
     Column(
         modifier = Modifier.fillMaxSize(),
         modifier = Modifier.fillMaxWidth(),
